@@ -33,7 +33,6 @@
 
 
 /*---------------------------- CSS --------------------------*/
-
 * {
     padding: 0;
     margin: 0;
@@ -90,9 +89,7 @@ h1 {
 
 .sinopse {
     color: white;
-    width: 90vw;
     height: 600px;
-    margin: auto;
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
     grid-template-rows: 10px 100px 200px;
@@ -100,350 +97,86 @@ h1 {
     position: absolute;
     z-index: 1;
     bottom: 0%;
-    left: -27%;
+    left: -10%;
 }
 
-/*------------------------ Pop up 1 --------------------------*/
-
-.item-1 {
+.item {
     position: relative;
     display: inline-block;
     cursor: url('imagens/cursor2.png'), auto;
 }
 
-.item-1 .sinopse-1 {
+.item .sinopse {
     visibility: hidden;
 }
 
-.item-1 .show {
+.item .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
 }
 
+.titulo {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
+    padding: 20px;
+    font-size: 2.5em;
+    text-align: left;
+}
+
+.texto {
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 2;
+    padding: 20px;
+    text-align: justify;
+}
+
+.sinopse > img {
+    grid-column: 3;
+    grid-row: 3 / span 2;
+    height: 350px;
+    width: 220px;
+}
+/*------------------------ Pop up 1 --------------------------*/
 .sinopse-1 {
     background-image: linear-gradient(to bottom, #696B78, #67a1ba, #14695D);
 } 
 
-.titulo {
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 2;
-    padding: 20px;
-    font-size: 2.5em;
-    text-align: left;
-}
-
-.texto {
-    grid-column: 1 / span 2;
-    grid-row: 3 / span 2;
-    padding: 20px;
-    text-align: justify;
-}
-
 .sinopse-1 > img {
-    grid-column: 3;
-    grid-row: 3 / span 2;
     height: 400px;
 }
-
 /*------------------------ Pop up 2 --------------------------*/
-
-.item-2 {
-    position: relative;
-    display: inline-block;
-    cursor: url('imagens/cursor2.png'), auto;
-}
-
-.item-2 .sinopse-2 {
-    visibility: hidden;
-}
-
-.item-2 .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-}
-
 .sinopse-2 {
     background-image: linear-gradient(to bottom, #FF949B, #378A73, #488C97, #191F42);
 }
-
-.titulo {
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 2;
-    padding: 20px;
-    font-size: 2.5em;
-    text-align: left;
-}
-
-.texto {
-    grid-column: 1 / span 2;
-    grid-row: 3 / span 2;
-    padding: 20px;
-    text-align: justify;
-}
-
-.sinopse-2 > img {
-    grid-column: 3;
-    grid-row: 3 / span 2;
-    height: 320px;
-    width: 220px;
-}
-
 /*------------------------ Pop up 3 --------------------------*/
-
-.item-3 {
-    position: relative;
-    display: inline-block;
-    cursor: url('imagens/cursor2.png'), auto;
-}
-
-.item-3 .sinopse-3 {
-    visibility: hidden;
-}
-
-.item-3 .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-}
-
 .sinopse-3 {
     background-image: linear-gradient(to bottom,#C52930, #1C233C);
 }
-
-.titulo {
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 2;
-    padding: 20px;
-    font-size: 2.5em;
-    text-align: left;
-}
-
-.texto {
-    grid-column: 1 / span 2;
-    grid-row: 3 / span 2;
-    padding: 20px;
-    text-align: justify;
-}
-
-.sinopse-3 > img {
-    grid-column: 3;
-    grid-row: 3 / span 2;
-    height: 320px;
-    width: 220px;
-}
 /*------------------------ Pop up 4 --------------------------*/
-.item-4 {
-    position: relative;
-    display: inline-block;
-    cursor: url('imagens/cursor2.png'), auto;
-}
-
-.item-4 .sinopse-4 {
-    visibility: hidden;
-}
-
-.item-4 .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-}
-
 .sinopse-4 {
     background-image: linear-gradient(to bottom, #E1DC9E, #132232);
 }
-
-.titulo {
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 2;
-    padding: 20px;
-    font-size: 2.5em;
-    text-align: left;
-}
-
-.texto {
-    grid-column: 1 / span 2;
-    grid-row: 3 / span 2;
-    padding: 20px;
-    text-align: justify;
-}
-
-.sinopse-4 > img {
-    grid-column: 3;
-    grid-row: 3 / span 2;
-    height: 350px;
-    width: 220px;
-}
 /*------------------------ Pop up 5 --------------------------*/
-.item-5 {
-    position: relative;
-    display: inline-block;
-    cursor: url('imagens/cursor2.png'), auto;
-}
-
-.item-5 .sinopse-5 {
-    visibility: hidden;
-}
-
-.item-5 .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-}
-
 .sinopse-5 {
     background-image: linear-gradient(to bottom, #E9EAD5,#BC5E49, #323B5A);
 }
-
-.titulo {
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 2;
-    padding: 20px;
-    font-size: 2.5em;
-    text-align: left;
-}
-
-.texto {
-    grid-column: 1 / span 2;
-    grid-row: 3 / span 2;
-    padding: 20px;
-    text-align: justify;
-}
-
-.sinopse-5 > img {
-    grid-column: 3;
-    grid-row: 3 / span 2;
-    height: 350px;
-    width: 220px;
-}
 /*------------------------ Pop up 6 --------------------------*/
-.item-6 {
-    position: relative;
-    display: inline-block;
-    cursor: url('imagens/cursor2.png'), auto;
-}
-
-.item-6 .sinopse-6 {
-    visibility: hidden;
-}
-
-.item-6 .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-}
-
 .sinopse-6 {
     background-image: linear-gradient(to bottom, #01BAEB, #000F68);
     grid-template-rows: 30px 100px 200px;
 }
-
-.titulo {
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 2;
-    padding: 20px;
-    font-size: 2em;
-    text-align: left;
-}
-
-.texto {
-    grid-column: 1 / span 2;
-    grid-row: 3 / span 2;
-    padding: 20px;
-    margin-top: 10px;
-    text-align: justify;
-}
-
-.sinopse-6 > img {
-    grid-column: 3;
-    grid-row: 3 / span 2;
-    height: 350px;
-    width: 220px;
-}
 /*------------------------ Pop up 7 --------------------------*/
-.item-7 {
-    position: relative;
-    display: inline-block;
-    cursor: url('imagens/cursor2.png'), auto;
-}
-
-.item-7 .sinopse-7 {
-    visibility: hidden;
-}
-
-.item-7 .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-}
-
 .sinopse-7 {
     background-image: linear-gradient(to bottom, #f0e3f0,#d91a56);
 }
-
-.titulo {
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 2;
-    padding: 20px;
-    font-size: 2em;
-    text-align: left;
-}
-
-.texto {
-    grid-column: 1 / span 2;
-    grid-row: 3 / span 2;
-    padding: 20px;
-    margin-top: 10px;
-    text-align: justify;
-}
-
 .sinopse-7 > img {
-    grid-column: 3;
-    grid-row: 3 / span 2;
     width: 216px;
     height: 320px;
 }
 /*------------------------ Pop up 8 --------------------------*/
-.item-8 {
-    position: relative;
-    display: inline-block;
-    cursor: url('imagens/cursor2.png'), auto;
-}
-
-.item-8 .sinopse-8 {
-    visibility: hidden;
-}
-
-.item-8 .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-}
-
 .sinopse-8 {
     background-image: linear-gradient(to bottom, #FCF56C,#d47032, #977F53);
-}
-
-.titulo {
-    grid-column: 1 / span 3;
-    grid-row: 1 / span 2;
-    padding: 20px;
-    font-size: 2em;
-    text-align: left;
-}
-
-.texto {
-    grid-column: 1 / span 2;
-    grid-row: 3 / span 2;
-    padding: 20px;
-    margin-top: 10px;
-    text-align: justify;
-}
-
-.sinopse-8 > img {
-    grid-column: 3;
-    grid-row: 3 / span 2;
 }
 /* ------------------------ Botoes ---------------------------*/
 
