@@ -134,7 +134,7 @@ h1 {
     height: 330px;
     width: 200px;
 }
-/*------------------------ Pop up 1 --------------------------*/
+/*--------------------- Pop up Chihiro -----------------------*/
 .sinopse-1 {
     background-image: linear-gradient(to bottom, #696B78, #67a1ba, #14695D);
 } 
@@ -142,28 +142,28 @@ h1 {
 .sinopse-1 > img {
     height: 400px;
 }
-/*------------------------ Pop up 2 --------------------------*/
+/*--------------------- Pop up Castelo -----------------------*/
 .sinopse-2 {
     background-image: linear-gradient(to bottom, #FF949B, #378A73, #488C97, #191F42);
 }
-/*------------------------ Pop up 3 --------------------------*/
+/*---------------------- Pop up Kiki -------------------------*/
 .sinopse-3 {
     background-image: linear-gradient(to bottom,#C52930, #1C233C);
 }
-/*------------------------ Pop up 4 --------------------------*/
+/*---------------------- Pop up Totoro -----------------------*/
 .sinopse-4 {
     background-image: linear-gradient(to bottom, #E1DC9E, #132232);
 }
-/*------------------------ Pop up 5 --------------------------*/
+/*--------------------- Pop up Mononoke ----------------------*/
 .sinopse-5 {
     background-image: linear-gradient(to bottom, #E9EAD5,#BC5E49, #323B5A);
 }
-/*------------------------ Pop up 6 --------------------------*/
+/*---------------------- Pop up Ponyo ------------------------*/
 .sinopse-6 {
     background-image: linear-gradient(to bottom, #01BAEB, #000F68);
     grid-template-rows: 30px 100px 200px;
 }
-/*------------------------ Pop up 7 --------------------------*/
+/*---------------------- Pop up Kaguya -----------------------*/
 .sinopse-7 {
     background-image: linear-gradient(to bottom, #f0e3f0,#d91a56);
 }
@@ -171,13 +171,13 @@ h1 {
     width: 196px;
     height: 300px;
 }
-/*------------------------ Pop up 8 --------------------------*/
+/*--------------------- Pop up Vagalumes ---------------------*/
 .sinopse-8 {
     background-image: linear-gradient(to bottom, #FCF56C,#d47032, #977F53);
 }
 /* ------------------------ Botoes ---------------------------*/
 
-#botao-1 {
+.botao-1 {
     grid-column: 1;
     grid-row: 5;
     background-color: #85C2A2;
@@ -189,7 +189,7 @@ h1 {
     transform: skew(-10deg);
 }
 
-#botao-1:hover {
+.botao-1:hover {
     border: solid 2px white;
     transition-duration: .2s;
 }
@@ -200,7 +200,7 @@ button > a {
     font-size: 2em;
 }
 
-#botao-2 {
+.botao-2 {
     grid-column: 3;
     grid-row: 5;
     background-color: #0b3f5200;
@@ -212,8 +212,17 @@ button > a {
     transform: skew(-10deg);
 }
 
-#botao-2:hover {
+.botao-2:hover {
     background-color: #85C2A2;
+    transition-duration: .5s;
+}
+
+#botao-red {
+    background-color: #FB3238;
+}
+
+#botao2-red:hover {
+    background-color: #FB3238;
     transition-duration: .5s;
 }
 
