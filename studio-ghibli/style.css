@@ -131,8 +131,8 @@ h1 {
 .sinopse > img {
     grid-column: 3;
     grid-row: 3 / span 2;
-    height: 350px;
-    width: 220px;
+    height: 330px;
+    width: 200px;
 }
 /*------------------------ Pop up 1 --------------------------*/
 .sinopse-1 {
@@ -168,8 +168,8 @@ h1 {
     background-image: linear-gradient(to bottom, #f0e3f0,#d91a56);
 }
 .sinopse-7 > img {
-    width: 216px;
-    height: 320px;
+    width: 196px;
+    height: 300px;
 }
 /*------------------------ Pop up 8 --------------------------*/
 .sinopse-8 {
