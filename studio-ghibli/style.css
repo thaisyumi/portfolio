@@ -81,12 +81,6 @@ h1 {
     text-align: center;
 }
 
-.item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8 {
-    padding: 10px;
-    margin: 30px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.31);
-}
-
 .sinopse {
     color: white;
     height: 650px;
@@ -95,15 +89,17 @@ h1 {
     grid-template-rows: 10px 90px 200px;
     border-radius: 10px;
     position: absolute;
-    z-index: 1;
     bottom: 0%;
-    left: -15%;
+    left: -20%;
 }
 
 .item {
     position: relative;
     display: inline-block;
     cursor: url('imagens/cursor2.png'), auto;
+    padding: 10px;
+    margin: 30px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.31);
 }
 
 .item .sinopse {
