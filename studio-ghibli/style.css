@@ -47,7 +47,7 @@ body {
 header {
     background-image: linear-gradient(to bottom, #90d5ee, #4493b0, #0B3F52);
     color: white;
-    height: 600px;
+    height: 650px;
     width: 100%;
 }
 
@@ -64,6 +64,7 @@ h1 {
     font-size: 5em;
     text-align: center;
     font-weight: normal;
+    overflow-wrap: normal;
 }
 
 #descricao {
@@ -87,6 +88,21 @@ h1 {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.31);
 }
 
+.sinopse {
+    color: white;
+    width: 90vw;
+    height: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 10px 100px 200px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0%;
+    left: -27%;
+}
+
 /*------------------------ Pop up 1 --------------------------*/
 
 .item-1 {
@@ -107,19 +123,7 @@ h1 {
 
 .sinopse-1 {
     background-image: linear-gradient(to bottom, #696B78, #67a1ba, #14695D);
-    color: white;
-    width: 80vw;
-    height: 600px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: 10px 100px 200px;
-    border-radius: 10px;
-    position: absolute;
-    z-index: 1;
-    bottom: 0%;
-    left: -15%;
-}
+} 
 
 .titulo {
     grid-column: 1 / span 3;
@@ -162,18 +166,6 @@ h1 {
 
 .sinopse-2 {
     background-image: linear-gradient(to bottom, #FF949B, #378A73, #488C97, #191F42);
-    color: white;
-    width: 80vw;
-    height: 600px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: 10px 100px 200px;
-    border-radius: 10px;
-    position: absolute;
-    z-index: 1;
-    bottom: 0%;
-    left: -15%;
 }
 
 .titulo {
@@ -218,18 +210,6 @@ h1 {
 
 .sinopse-3 {
     background-image: linear-gradient(to bottom,#C52930, #1C233C);
-    color: white;
-    width: 80vw;
-    height: 600px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: 10px 100px 200px;
-    border-radius: 10px;
-    position: absolute;
-    z-index: 1;
-    bottom: 0%;
-    left: -15%;
 }
 
 .titulo {
@@ -272,18 +252,6 @@ h1 {
 
 .sinopse-4 {
     background-image: linear-gradient(to bottom, #E1DC9E, #132232);
-    color: white;
-    width: 80vw;
-    height: 600px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: 10px 100px 200px;
-    border-radius: 10px;
-    position: absolute;
-    z-index: 1;
-    bottom: 0%;
-    left: -15%;
 }
 
 .titulo {
@@ -326,18 +294,6 @@ h1 {
 
 .sinopse-5 {
     background-image: linear-gradient(to bottom, #E9EAD5,#BC5E49, #323B5A);
-    color: white;
-    width: 400px;
-    height: 600px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: 10px 100px 200px;
-    border-radius: 10px;
-    position: absolute;
-    z-index: 1;
-    bottom: 0%;
-    left: -15%;
 }
 
 .titulo {
@@ -380,18 +336,7 @@ h1 {
 
 .sinopse-6 {
     background-image: linear-gradient(to bottom, #01BAEB, #000F68);
-    color: white;
-    width: 400px;
-    height: 600px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: 10px 100px 200px;
-    border-radius: 10px;
-    position: absolute;
-    z-index: 1;
-    bottom: 0%;
-    left: -15%;
+    grid-template-rows: 30px 100px 200px;
 }
 
 .titulo {
@@ -435,18 +380,6 @@ h1 {
 
 .sinopse-7 {
     background-image: linear-gradient(to bottom, #f0e3f0,#d91a56);
-    color: white;
-    width: 400px;
-    height: 600px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: 10px 100px 200px;;
-    border-radius: 10px;
-    position: absolute;
-    z-index: 1;
-    bottom: 0%;
-    left: -15%;
 }
 
 .titulo {
@@ -490,18 +423,6 @@ h1 {
 
 .sinopse-8 {
     background-image: linear-gradient(to bottom, #FCF56C,#d47032, #977F53);
-    color: white;
-    width: 400px;
-    height: 600px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: 10px 100px 200px;
-    border-radius: 10px;
-    position: absolute;
-    z-index: 1;
-    bottom: 0%;
-    left: -15%;
 }
 
 .titulo {
