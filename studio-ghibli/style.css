@@ -89,15 +89,15 @@ h1 {
 
 .sinopse {
     color: white;
-    height: 600px;
+    height: 650px;
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
-    grid-template-rows: 10px 100px 200px;
+    grid-template-rows: 10px 90px 200px;
     border-radius: 10px;
     position: absolute;
     z-index: 1;
     bottom: 0%;
-    left: -10%;
+    left: -15%;
 }
 
 .item {
@@ -117,9 +117,9 @@ h1 {
 }
 
 .titulo {
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 4;
     grid-row: 1 / span 2;
-    padding: 20px;
+    padding: 10px;
     font-size: 2.5em;
     text-align: left;
 }
@@ -128,7 +128,8 @@ h1 {
     grid-column: 1 / span 2;
     grid-row: 3 / span 2;
     padding: 20px;
-    text-align: justify;
+    margin: 10px;
+    text-align: left;
 }
 
 .sinopse > img {
