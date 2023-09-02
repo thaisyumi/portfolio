@@ -48,6 +48,7 @@ header {
     background-image: linear-gradient(to bottom, #90d5ee, #4493b0, #0B3F52);
     color: white;
     height: 600px;
+    width: 100%;
 }
 
 #container-1 {
@@ -56,6 +57,7 @@ header {
 
 #img-logo {
     margin: auto;
+    width: 350px;
 }
 
 h1 {
@@ -65,7 +67,7 @@ h1 {
 }
 
 #descricao {
-    width: 400px;
+    width: 80%;
     margin: auto;
     margin-top: 30px;
     padding: 20px;
@@ -106,7 +108,7 @@ h1 {
 .sinopse-1 {
     background-image: linear-gradient(to bottom, #696B78, #67a1ba, #14695D);
     color: white;
-    width: 400px;
+    width: 80vw;
     height: 600px;
     margin: auto;
     display: grid;
@@ -161,17 +163,17 @@ h1 {
 .sinopse-2 {
     background-image: linear-gradient(to bottom, #FF949B, #378A73, #488C97, #191F42);
     color: white;
-    width: 500px;
-    height: 550px;
+    width: 80vw;
+    height: 600px;
     margin: auto;
     display: grid;
-    grid-template-columns: 150px 130px 60px 190px;
-    grid-template-rows: 60px 20px 300px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 10px 100px 200px;
     border-radius: 10px;
     position: absolute;
     z-index: 1;
     bottom: 0%;
-    left: -30%;
+    left: -15%;
 }
 
 .titulo {
@@ -191,7 +193,7 @@ h1 {
 
 .sinopse-2 > img {
     grid-column: 3;
-    grid-row: 2 / span 2;
+    grid-row: 3 / span 2;
     height: 320px;
     width: 220px;
 }
@@ -217,17 +219,17 @@ h1 {
 .sinopse-3 {
     background-image: linear-gradient(to bottom,#C52930, #1C233C);
     color: white;
-    width: 500px;
-    height: 550px;
+    width: 80vw;
+    height: 600px;
     margin: auto;
     display: grid;
-    grid-template-columns: 150px 130px 60px 190px;
-    grid-template-rows: 60px 70px 250px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 10px 100px 200px;
     border-radius: 10px;
     position: absolute;
     z-index: 1;
     bottom: 0%;
-    left: -30%;
+    left: -15%;
 }
 
 .titulo {
@@ -271,17 +273,17 @@ h1 {
 .sinopse-4 {
     background-image: linear-gradient(to bottom, #E1DC9E, #132232);
     color: white;
-    width: 500px;
-    height: 550px;
+    width: 80vw;
+    height: 600px;
     margin: auto;
     display: grid;
-    grid-template-columns: 150px 130px 60px 190px;
-    grid-template-rows: 60px 20px 300px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 10px 100px 200px;
     border-radius: 10px;
     position: absolute;
     z-index: 1;
     bottom: 0%;
-    left: -30%;
+    left: -15%;
 }
 
 .titulo {
@@ -301,7 +303,7 @@ h1 {
 
 .sinopse-4 > img {
     grid-column: 3;
-    grid-row: 2 / span 2;
+    grid-row: 3 / span 2;
     height: 350px;
     width: 220px;
 }
@@ -325,17 +327,17 @@ h1 {
 .sinopse-5 {
     background-image: linear-gradient(to bottom, #E9EAD5,#BC5E49, #323B5A);
     color: white;
-    width: 500px;
-    height: 550px;
+    width: 400px;
+    height: 600px;
     margin: auto;
     display: grid;
-    grid-template-columns: 150px 130px 60px 190px;
-    grid-template-rows: 60px 20px 300px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 10px 100px 200px;
     border-radius: 10px;
     position: absolute;
     z-index: 1;
     bottom: 0%;
-    left: -30%;
+    left: -15%;
 }
 
 .titulo {
@@ -355,7 +357,7 @@ h1 {
 
 .sinopse-5 > img {
     grid-column: 3;
-    grid-row: 2 / span 2;
+    grid-row: 3 / span 2;
     height: 350px;
     width: 220px;
 }
@@ -379,17 +381,17 @@ h1 {
 .sinopse-6 {
     background-image: linear-gradient(to bottom, #01BAEB, #000F68);
     color: white;
-    width: 500px;
-    height: 550px;
+    width: 400px;
+    height: 600px;
     margin: auto;
     display: grid;
-    grid-template-columns: 150px 130px 60px 190px;
-    grid-template-rows: 60px 70px 250px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 10px 100px 200px;
     border-radius: 10px;
     position: absolute;
     z-index: 1;
     bottom: 0%;
-    left: -30%;
+    left: -15%;
 }
 
 .titulo {
@@ -410,7 +412,7 @@ h1 {
 
 .sinopse-6 > img {
     grid-column: 3;
-    grid-row: 2 / span 2;
+    grid-row: 3 / span 2;
     height: 350px;
     width: 220px;
 }
@@ -434,17 +436,17 @@ h1 {
 .sinopse-7 {
     background-image: linear-gradient(to bottom, #f0e3f0,#d91a56);
     color: white;
-    width: 500px;
-    height: 550px;
+    width: 400px;
+    height: 600px;
     margin: auto;
     display: grid;
-    grid-template-columns: 150px 130px 60px 190px;
-    grid-template-rows: 60px 30px 250px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 10px 100px 200px;;
     border-radius: 10px;
     position: absolute;
     z-index: 1;
     bottom: 0%;
-    left: -30%;
+    left: -15%;
 }
 
 .titulo {
@@ -465,7 +467,7 @@ h1 {
 
 .sinopse-7 > img {
     grid-column: 3;
-    grid-row: 2 / span 2;
+    grid-row: 3 / span 2;
     width: 216px;
     height: 320px;
 }
@@ -489,17 +491,17 @@ h1 {
 .sinopse-8 {
     background-image: linear-gradient(to bottom, #FCF56C,#d47032, #977F53);
     color: white;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 600px;
     margin: auto;
     display: grid;
-    grid-template-columns: 150px 130px 60px 190px;
-    grid-template-rows: 60px 30px 270px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 10px 100px 200px;
     border-radius: 10px;
     position: absolute;
     z-index: 1;
     bottom: 0%;
-    left: -30%;
+    left: -15%;
 }
 
 .titulo {
@@ -520,7 +522,7 @@ h1 {
 
 .sinopse-8 > img {
     grid-column: 3;
-    grid-row: 2 / span 2;
+    grid-row: 3 / span 2;
 }
 /* ------------------------ Botoes ---------------------------*/
 
