@@ -1,39 +1,15 @@
-function sinopse1() {
-    var popup = document.getElementById("chihiro");
-    popup.classList.toggle("show");
-}
+function togglePopup(movieId) {
+    var popup = document.getElementById(movieId);
 
-function sinopse2() {
-    var popup = document.getElementById("castelo");
-    popup.classList.toggle("show");
-}
+    var popups = document.getElementsByClassName("sinopse");
 
-function sinopse3() {
-    var popup = document.getElementById("kiki");
-    popup.classList.toggle("show");
-}
+    for (var i = 0; i < popups.length; i++) {
+        if (popups[i].id !== movieId && popups[i].classList.contains("show")) {
+            popups[i].classList.remove("show");
+        }
+    }
 
-function sinopse4() {
-    var popup = document.getElementById("totoro");
-    popup.classList.toggle("show");
-}
-
-function sinopse5() {
-    var popup = document.getElementById("mononoke");
-    popup.classList.toggle("show");
-}
-
-function sinopse6() {
-    var popup = document.getElementById("ponyo");
-    popup.classList.toggle("show");
-}
-
-function sinopse7() {
-    var popup = document.getElementById("kaguya");
-    popup.classList.toggle("show");
-}
-
-function sinopse8() {
-    var popup = document.getElementById("vagalumes");
-    popup.classList.toggle("show");
+    if (popup) {
+        popup.classList.toggle("show");
+    }
 }
