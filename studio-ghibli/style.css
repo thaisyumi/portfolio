@@ -34,7 +34,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -44,8 +44,9 @@ body {
 header {
     background-image: linear-gradient(to bottom, #90d5ee, #4493b0, #0B3F52);
     color: white;
-    height: 650px;
+    height: 700px;
     width: 100%;
+    font-family: 'Jost', sans-serif;
 }
 
 #container-1 {
@@ -72,6 +73,7 @@ h1 {
     border-radius: 10px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.31);
     text-align: justify;
+    text-indent: 20px;
 }
 
 #container-2 {
@@ -115,7 +117,7 @@ h1 {
     grid-row: 1 / span 2;
     padding: 10px;
     font-size: 2.5em;
-    text-align: left;
+    text-align: center;
 }
 
 .texto {
@@ -143,6 +145,10 @@ h1 {
 /*--------------------- Pop up Castelo -----------------------*/
 .sinopse-2 {
     background-image: linear-gradient(to bottom, #FF949B, #378A73, #488C97, #191F42);
+    }
+
+.sinopse-2 > img {
+    height: 400px;
 }
 /*---------------------- Pop up Kiki -------------------------*/
 .sinopse-3 {
@@ -163,11 +169,11 @@ h1 {
 }
 /*---------------------- Pop up Kaguya -----------------------*/
 .sinopse-7 {
-    background-image: linear-gradient(to bottom, #f0e3f0,#d91a56);
+    background-image: linear-gradient(to bottom, #f0e3f0,#ca3a67);
 }
 .sinopse-7 > img {
-    width: 196px;
-    height: 300px;
+    width: 200px;
+    height: 330px;
 }
 /*--------------------- Pop up Vagalumes ---------------------*/
 .sinopse-8 {
