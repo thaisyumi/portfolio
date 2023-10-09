@@ -1,0 +1,293 @@
+@media screen and (min-width: 750px) and (max-width: 900px) {
+    .sinopse {
+        width: 85vw;
+        grid-template-columns: 200px 200px 200px 100px;
+        grid-template-rows: 10px 90px 200px 200px 1px;
+        bottom:-25%;
+        left: -2%;
+        z-index: 1;
+    }
+
+    .texto {
+        font-size: 1.1em;
+    }
+
+    .sinopse-1 > img {
+        height: 500px;
+        width: 250px;
+    }
+
+    .sinopse-2 {
+        left: -130%;
+    }
+
+    .sinopse-2 > img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .sinopse-3 > img {
+        width: 300px;
+        height: 450px;
+    }
+
+    .sinopse-4 {
+        left: -130%;
+    }
+
+    .sinopse-4 > img {
+        width: 280px;
+        height: 430px;
+    }
+
+    .sinopse-5 > img {
+        width: 280px;
+        height: 450px;
+    }
+
+    .sinopse-6 {
+        left: -130%;
+    }
+
+    .sinopse-6 > img {
+        width: 280px;
+        height: 450px;
+    }
+
+    .sinopse-7 > img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .sinopse-8 {
+        left: -130%;
+    }
+
+    .sinopse-8 >img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .botao-1 {
+        grid-column: 1;
+        grid-row: 4;
+        margin: 100px;
+    }
+
+    .botao-2 {
+        grid-column: 1;
+        grid-row: 5;
+        align-self: center;
+        margin: 100px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+
+    .sinopse {
+        color: white;
+        height: 650px;
+        width: 800px;
+        display: grid;
+        grid-template-columns: 250px 270px 0px 300px;
+        grid-template-rows: 10px 90px 190px 200px 1px;
+        border-radius: 10px;
+        position: absolute;
+        bottom: -11%;
+        left: -20%;
+        z-index: 1;
+    }
+
+    .texto {
+        font-size: 1.2em;
+    }
+
+    .sinopse-1 > img {
+        height: 500px;
+        width: 250px;
+    }
+
+    .sinopse-2 {
+        left: -140%;
+    }
+
+    .sinopse-2 > img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .sinopse-3 > img {
+        width: 300px;
+        height: 450px;
+    }
+
+    .sinopse-4 {
+        left: -140%;
+    }
+
+    .sinopse-4 > img {
+        width: 280px;
+        height: 430px;
+    }
+
+    .sinopse-5 > img {
+        width: 280px;
+        height: 450px;
+    }
+
+    .sinopse-6 {
+        left: -140%;
+    }
+
+    .sinopse-6 > img {
+        width: 280px;
+        height: 450px;
+    }
+
+    .sinopse-7 > img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .sinopse-8 {
+        left: -140%;
+    }
+
+    .sinopse-8 >img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .botao-1 {
+        grid-column: 1;
+        grid-row: 4;
+        margin: 100px;
+    }
+
+    .botao-2 {
+        grid-column: 1;
+        grid-row: 5;
+        align-self: center;
+        margin: 100px;
+    }
+
+    .botao-1 {
+        grid-column: 1;
+        grid-row: 4;
+        margin: 200px;
+    }
+
+    .botao-2 {
+        grid-column: 1;
+        grid-row: 5;
+        margin: 200px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .sinopse {
+        color: white;
+        height: 650px;
+        width: 800px;
+        display: grid;
+        grid-template-columns: 250px 270px 0px 300px;
+        grid-template-rows: 10px 90px 190px 200px 1px;
+        bottom: -13%;
+        left: 100%;
+        z-index: 1;
+    }
+
+    .texto {
+        font-size: 1.2em;
+    }
+
+    .sinopse-1 > img {
+        height: 500px;
+        width: 250px;
+    }
+
+    .sinopse-2 {
+        left: -22%;
+    }
+
+    .sinopse-2 > img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .sinopse-3 {
+        left: -143%;
+    }
+
+    .sinopse-3 > img {
+        width: 300px;
+        height: 450px;
+    }
+
+    .sinopse-4 {
+        left: -265%;
+    }
+
+    .sinopse-4 > img {
+        width: 280px;
+        height: 430px;
+    }
+
+    .sinopse-5 > img {
+        width: 280px;
+        height: 450px;
+    }
+
+    .sinopse-6 {
+        left: -22%;
+    }
+
+    .sinopse-6 > img {
+        width: 280px;
+        height: 450px;
+    }
+
+    .sinopse-7 {
+        left: -143%;
+    }
+
+    .sinopse-7 > img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .sinopse-8 {
+        left: -265%;
+    }
+
+    .sinopse-8 >img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .botao-1 {
+        grid-column: 1;
+        grid-row: 4;
+        margin: 100px;
+    }
+
+    .botao-2 {
+        grid-column: 1;
+        grid-row: 5;
+        align-self: center;
+        margin: 100px;
+    }
+
+    .botao-1 {
+        grid-column: 1;
+        grid-row: 4;
+        margin: 200px;
+    }
+
+    .botao-2 {
+        grid-column: 1;
+        grid-row: 5;
+        margin: 200px;
+    }
+}
