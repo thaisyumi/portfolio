@@ -287,7 +287,7 @@
 }
 
 @media screen and (min-width: 1490px) and (max-width: 1854px) {
-
+    
     .sinopse {
         color: white;
         height: 650px;
@@ -395,6 +395,15 @@
 }
 
 @media screen and (min-width:1854px) {
+
+    header {
+        height: 1100px;
+    }
+
+    #img-logo {
+      width: 500px;
+    }
+
     .sinopse {
         color: white;
         height: 700px;
