@@ -184,7 +184,109 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1126) and (max-width: 1490px) {
+
+    .sinopse {
+        color: white;
+        height: 650px;
+        width: 800px;
+        display: grid;
+        grid-template-columns: 250px 270px 0px 300px;
+        grid-template-rows: 10px 90px 190px 200px 1px;
+        border-radius: 10px;
+        position: absolute;
+        bottom: -11%;
+        left: 100%;
+        z-index: 1;
+    }
+
+    .texto {
+        font-size: 1.2em;
+    }
+
+    .sinopse-1 > img {
+        height: 500px;
+        width: 250px;
+    }
+
+    .sinopse-2 {
+        left: -140%;
+    }
+
+    .sinopse-2 > img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .sinopse-3 > img {
+        width: 300px;
+        height: 450px;
+    }
+
+    .sinopse-4 {
+        left: -140%;
+    }
+
+    .sinopse-4 > img {
+        width: 280px;
+        height: 430px;
+    }
+
+    .sinopse-5 > img {
+        width: 280px;
+        height: 450px;
+    }
+
+    .sinopse-6 {
+        left: -140%;
+    }
+
+    .sinopse-6 > img {
+        width: 280px;
+        height: 450px;
+    }
+
+    .sinopse-7 > img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .sinopse-8 {
+        left: -140%;
+    }
+
+    .sinopse-8 >img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .botao-1 {
+        grid-column: 1;
+        grid-row: 4;
+        margin: 100px;
+    }
+
+    .botao-2 {
+        grid-column: 1;
+        grid-row: 5;
+        align-self: center;
+        margin: 100px;
+    }
+
+    .botao-1 {
+        grid-column: 1;
+        grid-row: 4;
+        margin: 200px;
+    }
+
+    .botao-2 {
+        grid-column: 1;
+        grid-row: 5;
+        margin: 200px;
+    }
+}
+
+@media screen and (min-width: 1490px) and (max-width: 1854px) {
 
     .sinopse {
         color: white;
@@ -212,8 +314,8 @@
     }
 
     .sinopse-2 > img {
-        width: 280px;
-        height: 500px;
+        width: 260px;
+        height: 480px;
     }
 
     .sinopse-3 {
@@ -221,8 +323,8 @@
     }
 
     .sinopse-3 > img {
-        width: 280px;
-        height: 430px;
+        width: 250px;
+        height: 450px;
     }
 
     .sinopse-4 {
@@ -230,12 +332,12 @@
     }
 
     .sinopse-4 > img {
-        width: 280px;
-        height: 430px;
+        width: 250px;
+        height: 400px;
     }
 
     .sinopse-5 > img {
-        width: 280px;
+        width: 250px;
         height: 450px;
     }
 
@@ -244,7 +346,7 @@
     }
 
     .sinopse-6 > img {
-        width: 280px;
+        width: 250px;
         height: 450px;
     }
 
@@ -253,12 +355,126 @@
     }
 
     .sinopse-7 > img {
-        width: 280px;
-        height: 480px;
+        width: 250px;
+        height: 460px;
     }
 
     .sinopse-8 {
         left: -265%;
+    }
+
+    .sinopse-8 >img {
+        width: 250px;
+        height: 480px;
+    }
+
+    .botao-1 {
+        grid-column: 1;
+        grid-row: 4;
+        margin: 100px;
+    }
+
+    .botao-2 {
+        grid-column: 1;
+        grid-row: 5;
+        align-self: center;
+        margin: 100px;
+    }
+
+    .botao-1 {
+        grid-column: 1;
+        grid-row: 4;
+        margin: 200px;
+    }
+
+    .botao-2 {
+        grid-column: 1;
+        grid-row: 5;
+        margin: 200px;
+    }
+}
+
+@media screen and (min-width:1854px) {
+    .sinopse {
+        color: white;
+        height: 700px;
+        width: 1100px;
+        display: grid;
+        grid-template-columns: 350px 400px 0px 400px;
+        grid-template-rows: 10px 90px 190px 200px 1px;
+        bottom: -40%;
+        left: 110%;
+        z-index: 1;
+    }
+
+    .texto {
+        font-size: 1.6em;
+    }
+
+    .sinopse-1 > img {
+        height: 570px;
+        width: 320px;
+    }
+
+    .sinopse-2 {
+        left: -12%;
+    }
+
+    .sinopse-2 > img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .sinopse-3 {
+        left: -133%;
+    }
+
+    .sinopse-3 > img {
+        width: 300px;
+        height: 460px;
+    }
+
+    .sinopse-4 {
+        left: -255%;
+    }
+
+    .sinopse-4 > img {
+        width: 300px;
+        height: 460px;
+    }
+
+    .sinopse-5 {
+        left: -1130px;
+    }
+
+    .sinopse-5 > img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .sinopse-6 {
+        left: -12%;
+        bottom: -2%;
+    }
+
+    .sinopse-6 > img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .sinopse-7 {
+        left: -135%;
+        bottom: -2%;
+    }
+
+    .sinopse-7 > img {
+        width: 300px;
+        height: 500px;
+    }
+
+    .sinopse-8 {
+        left: -255%;
+        bottom: 2%;
     }
 
     .sinopse-8 >img {
