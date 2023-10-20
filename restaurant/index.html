@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yumi Restaurant</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/da92363dac.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.js" async></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navbar-->
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-md sticky-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand japanese-font">Yumi <span class="text-danger">restaurant</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#restaurant-navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="restaurant-navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item px-3">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#specials" class="nav-link">Specials</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#menus" class="nav-link">Menus</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#chefs" class="nav-link">Chefs</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagens/slider-1.jpg" class="d-block w-100 big" alt="..." >
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/slider-2.jpg" class="d-block w-100 big" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="imagens/slider-3.jpg" class="d-block w-100 big" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Specials -->
+
+      <div class="specials p-5" id="specials">
+        <div class="container">
+            <div class="grid">
+                <div class="row mt-5">
+                    <div class="col-md-4 text-center">
+                        <i class="fa fa-hand-holding-water fa-4x text-success"></i>
+                        <p class="h2 fw-bold my-2">HandPicked Items</p>
+                        <p class="lead fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia officiis voluptatum facilis, vero tempore vel amet sed ex nam consectetur? Nulla impedit qui necessitatibus dicta ducimus laborum laboriosam aperiam dolores.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <i class="fa fa-heart fa-4x text-danger"></i>
+                        <p class="h2 fw-bold my-2">Made with Love</p>
+                        <p class="lead fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia officiis voluptatum facilis, vero tempore vel amet sed ex nam consectetur? Nulla impedit qui necessitatibus dicta ducimus laborum laboriosam aperiam dolores.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <i class="fa fa-bowl-food fa-4x text-warning"></i>
+                        <p class="h2 fw-bold my-2">Delicious Food</p>
+                        <p class="lead fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia officiis voluptatum facilis, vero tempore vel amet sed ex nam consectetur? Nulla impedit qui necessitatibus dicta ducimus laborum laboriosam aperiam dolores.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- Menus Section -->
+
+      <section class="menus">
+        <div class="menu-1 bg-dark p-5" id="menus">
+            <div class="container">
+                <div class="grid">
+                    <div class="row text-white align-items-center mt-5">
+                        <div class="col-md-6">
+                            <p class="h2 fw-bold">Grilled Eel And Avocado <span class="text-warning">Sushi Roll</span></p>
+                            <p class="lead fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur corrupti sit fugiat suscipit quam harum pariatur nemo maxime labore modi, cumque veniam enim omnis! Architecto eveniet dignissimos reiciendis exercitationem quasi?</p>
+                        </div>
+                        <div class="col-md-6">
+                            <video src="imagens/sushi.mp4" controls autoplay class="img-fluid">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-2 bg-white p-5" id="menus">
+            <div class="container">
+                <div class="grid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <video src="imagens/mixed.mp4" controls autoplay class="img-fluid">
+                            </video>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="h2 fw-bold">Mixed Sushi <span class="text-warning">Fusion</span></p>
+                            <p class="lead fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur corrupti sit fugiat suscipit quam harum pariatur nemo maxime labore modi, cumque veniam enim omnis! Architecto eveniet dignissimos reiciendis exercitationem quasi?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-3 bg-dark p-5" id="menus">
+            <div class="container">
+                <div class="grid">
+                    <div class="row text-white align-items-center">
+                        <div class="col-md-6">
+                            <p class="h2 fw-bold">Sashimi Over <span class="text-warning">Rice Rolls</span></p>
+                            <p class="lead fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur corrupti sit fugiat suscipit quam harum pariatur nemo maxime labore modi, cumque veniam enim omnis! Architecto eveniet dignissimos reiciendis exercitationem quasi?</p>
+                        </div>
+                        <div class="col-md-6">
+                            <video src="imagens/sashimi.mp4" controls autoplay class="img-fluid">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Cards - Chefs -->
+
+      <section class="chefs p-5" id="chefs">
+        <div class="container">
+            <div class="grid">
+                <div class="row mt-5">
+
+                    <div class="col-md-3">
+                        <div class="card shadow-lg my-2">
+                            <img src="imagens/chef-4.jpg" alt="" class="img-fluid">
+                            <div class="card-body">
+                                <p class="h4 card-title fw-bold">Urokodaki Sakonji</p>
+                                <p class="text-muted">Executive Chef</p>
+                                <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui optio, necessitatibus quam blanditiis explicabo deserunt doloribus quas aliquid est maxime nisi repellendus! Vel facilis et numquam? Dolores et quo similique!</p>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fab fa-facebook text-primary fa-2x"></i>
+                                    <i class="fab fa-twitter text-info fa-2x"></i>
+                                    <i class="fab fa-youtube text-danger fa-2x"></i>
+                                    <i class="fab fa-instagram text-warning fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-lg my-2">
+                            <img src="imagens/chef-1.jpg" alt="" class="img-fluid">
+                            <div class="card-body">
+                                <p class="h4 card-title fw-bold">Tanjirō Kamado</p>
+                                <p class="text-muted">Executive Sous Chef</p>
+                                <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui optio, necessitatibus quam blanditiis explicabo deserunt doloribus quas aliquid est maxime nisi repellendus! Vel facilis et numquam? Dolores et quo similique!</p>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fab fa-facebook text-primary fa-2x"></i>
+                                    <i class="fab fa-twitter text-info fa-2x"></i>
+                                    <i class="fab fa-youtube text-danger fa-2x"></i>
+                                    <i class="fab fa-instagram text-warning fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-lg my-2">
+                            <img src="imagens/chef-2.jpg" alt="" class="img-fluid">
+                            <div class="card-body">
+                                <p class="h4 card-title fw-bold">Tobias Fünke</p>
+                                <p class="text-muted">Sous Chef</p>
+                                <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui optio, necessitatibus quam blanditiis explicabo deserunt doloribus quas aliquid est maxime nisi repellendus! Vel facilis et numquam? Dolores et quo similique!</p>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fab fa-facebook text-primary fa-2x"></i>
+                                    <i class="fab fa-twitter text-info fa-2x"></i>
+                                    <i class="fab fa-youtube text-danger fa-2x"></i>
+                                    <i class="fab fa-instagram text-warning fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-lg my-2">
+                            <img src="imagens/chef-3.jpg" alt="" class="img-fluid">
+                            <div class="card-body">
+                                <p class="h4 card-title fw-bold">Kenneth Sean Carson</p>
+                                <p class="text-muted">Chef de Partie</p>
+                                <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui optio, necessitatibus quam blanditiis explicabo deserunt doloribus quas aliquid est maxime nisi repellendus! Vel facilis et numquam? Dolores et quo similique!</p>
+                                <div class="d-flex justify-content-around">
+                                    <i class="fab fa-facebook text-primary fa-2x"></i>
+                                    <i class="fab fa-twitter text-info fa-2x"></i>
+                                    <i class="fab fa-youtube text-danger fa-2x"></i>
+                                    <i class="fab fa-instagram text-warning fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+
+      <footer class="footer bg-dark text-white p-5" id="contact">
+        <div class="container">
+            <div class="grid">
+                <div class="row align-items-center mt-5">
+                    <div class="col-md-4 mb-2">
+                        <p>Copyright © 2023</p>
+                        <small> Yumi restaurant <br>
+                            Sao Paulo, Sao Paulo <br>
+                            Brasil
+                        </small>
+                    </div>
+                    <div class="col-md-4 offset-md-4">
+                        <form action="get">
+                            <div class="mb-2">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="mb-2">
+                                <input type="email" class="form-control" placeholder="Your Email">
+                            </div>
+                            <div class="mb-2">
+                                <input type="number" class="form-control" placeholder="Your Mobile Number">
+                            </div>
+                            <div class="mb-2">
+                                <textarea rows="3" class="form-control" placeholder="Your Text"></textarea>
+                            </div>
+                            <div class="mb-2">
+                                <input type="submit" class="btn btn-warning" value="Contact">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+</body>
+</html>

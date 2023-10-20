@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Niagato;
+    src: url(niagato/Niagato.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.japanese-font {
+    font-family: Niagato;
+    font-size: 2em;
+}
+
+.big {
+    max-height: 900px;
+    min-height: 200px;
+}
+
